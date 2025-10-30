@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RestaurantAppUI">
+
+        <!-- Login screen = app launcher -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RestaurantAppUI">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Forgot Password screen -->
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantAppUI" />
+
+        <!-- Registration screen -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantAppUI" />
+
+        <!-- Keep MainActivity for future navigation or testing -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantAppUI" />
+
+        <activity
+            android:name=".ReservationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantAppUI" />
+
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantAppUI" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RestaurantAppUI" />
+
+        <activity android:name=".StaffDashboardActivity"
+            android:exported="true"
+            android:label="Staff Dashboard"
+            android:theme="@style/Theme.RestaurantAppUI" />
+
+
+    </application>
+
+
+
+</manifest>

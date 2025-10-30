@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Use built-in Android bell icon -->
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@android:drawable/stat_notify_more"
+        android:title="Notifications"
+        android:showAsAction="always" />
+</menu>
+

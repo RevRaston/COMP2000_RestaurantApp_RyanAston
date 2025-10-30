@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home page -->
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@android:drawable/ic_menu_view" />
+
+    <!-- Reservations page -->
+    <item
+        android:id="@+id/nav_reservations"
+        android:title="Reservations"
+        android:icon="@android:drawable/ic_menu_today" />
+
+    <!-- Menu page -->
+    <item
+        android:id="@+id/nav_menu"
+        android:title="Menu"
+        android:icon="@android:drawable/ic_menu_agenda" />
+
+    <!-- Account page -->
+    <item
+        android:id="@+id/nav_account"
+        android:title="Account"
+        android:icon="@android:drawable/ic_menu_manage" />
+
+    <!-- Logout -->
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Sign Out"
+        android:icon="@android:drawable/ic_lock_power_off" />
+
+</menu>
